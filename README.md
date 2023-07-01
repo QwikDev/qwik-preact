@@ -12,7 +12,7 @@ preact.tsx
 import { qwikify$ } from '@qwikdev/qwik-preact';
 import { useState } from 'preact/hooks';
 
-// Create React component standard way
+// Create Preact component standard way
 function Counter() {
   const [count, setCount] = useState(0);
   return (
@@ -22,7 +22,7 @@ function Counter() {
   );
 }
 
-// Convert React component to Qwik component
+// Convert Preact component to Qwik component
 export const QCounter = qwikify$(Counter, { eagerness: 'hover' });
 ```
 
@@ -41,7 +41,7 @@ export default component$(() => {
 });
 ```
 
-Please keep in mind that this is an experimental implementation based on `qwik-react` implementation. So, there might be bugs and unwanted behaviour.
+Please keep in mind that this is an experimental implementation based on `qwik-react` implementation. So, there might be bugs and unwanted behaviours.
 
 ## Development Builds
 
