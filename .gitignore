@@ -1,0 +1,44 @@
+# Keep "OS" and "IDE and local environment" ignores on your local machine in user home
+# git config --global core.excludesFile ~/.gitignore
+# https://git-scm.com/docs/gitignore
+
+# OS
+**/.DS_Store
+etc
+temp
+.history
+*.
+**/*.log
+*.node
+
+# Application
+qwik-app/
+**/server/
+todo-express/
+target
+!/packages/docs/src/routes/demo/events/target
+src/napi/package-*
+
+# Node
+node_modules
+
+# Artifacts
+tsc-out
+dist
+dist-dev
+external
+lib
+tsdoc-metadata.json
+
+# IDE and local environment
+.vscode/settings.json
+.idea
+.eslintcache
+
+# Package Managers
+.yarn/*
+!.yarn/releases
+.pnpm-store/*
+
+# Local Netlify folder
+.netlify
