@@ -1,6 +1,6 @@
 {
   "name": "@qwikdev/qwik-preact",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "QwikPreact allows adding Preact components into existing Qwik application",
   "scripts": {
     "build": "npm run build.lib",
