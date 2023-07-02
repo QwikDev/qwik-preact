@@ -41,12 +41,12 @@
     ".": {
       "import": "./lib/index.qwik.mjs",
       "require": "./lib/index.qwik.cjs",
-      "types": "./lib/types/index.qwik.d.ts"
+      "types": "./lib/index.qwik.d.ts"
     },
     "./vite": {
       "import": "./lib/vite.mjs",
       "require": "./lib/vite.cjs",
-      "types": "./lib/types/vite.d.ts"
+      "types": "./lib/vite.d.ts"
     }
   },
   "files": [
@@ -65,5 +65,5 @@
   "type": "module",
   "main": "./lib/index.qwik.mjs",
   "qwik": "./lib/index.qwik.mjs",
-  "types": "./lib/types/index.qwik.d.ts"
+  "types": "./lib/index.qwik.d.ts"
 }
