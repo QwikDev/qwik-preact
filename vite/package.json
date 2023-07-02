@@ -5,11 +5,11 @@
     ".": {
       "import": "../lib/vite.mjs",
       "require": "../lib/vite.cjs",
-      "types": "../lib/types/vite.d.ts"
+      "types": "../lib/vite.d.ts"
     }
   },
   "type": "module",
   "main": "../lib/vite.mjs",
   "qwik": "../lib/vite.mjs",
-  "types": "../lib/types/vite.d.ts"
+  "types": "../lib/vite.d.ts"
 }
